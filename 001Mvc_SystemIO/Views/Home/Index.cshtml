@@ -1,0 +1,35 @@
+﻿@using System.Data;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <h3>@ViewData["message"]</h3>
+
+        <hr />
+        硬盘分区检测：
+        @*<h3>@ViewData["a1"]</h3>
+        <h3>@ViewData["a2"]</h3>
+        <h3>@ViewData["a3"]</h3>*@
+    <ul class="text-left border-danger border">
+        @foreach (DataRow item in ViewBag.abcd.Rows)
+        {
+            <li class="bg-info">DriverName：@item["DriverName"]</li>
+            <li>分区类型：@item["DriveType"]</li>
+            <li>文件系统：@item["DriveFormat"]</li>
+            <li>磁盘分区卷标：@item["VolumeLabel"]</li>
+            <li>磁盘空闲容量：@item["TotalFreeSpace"]</li>
+            <li>磁盘容量：@item["TotalSize"]GB</li>
+            <li>磁盘使用量百分比：@item["Percent"]%</li>
+            <li>当前用户的磁盘配额：@item["AvailableFreeSpace"]GB</li>
+        }
+    </ul>
+        <div class="bg-light">下面无关</div>
+        @Html.Raw("<div style='color:red'>输出字符串</div>")
+        @{
+            string thisTest = "<span style=\"color:#f00;\">qubernet</span>";
+        }
+        @Html.Raw(thisTest);
+    </div>
