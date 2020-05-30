@@ -12,7 +12,13 @@
 
 <!-- /TOC -->
 
-![Zoomla!逐浪软件](源码与接口使用说明/logo.svg)
+<p align="center">
+  <a href="http://code.z01.com/bootstrap-vue">
+    <img src="http://code.z01.com/bootstrap-vue/style/icons/icon_512.png" width="300">
+  </a>
+</p>
+<br>
+
 # Zoomla!逐浪CMS经典dotNET core项目开发实例库
 
 ## 仓库目录
