@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="http://www.z01.com/">
-    <img src="https://code.z01.com/img/zoomla_logo.svg" width="300">
+    <img src="https://code.z01.com/img/zoomla_logo.svg" width="600">
   </a>
 </p>
 <br>
