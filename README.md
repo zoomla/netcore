@@ -13,8 +13,8 @@
 <!-- /TOC -->
 
 <p align="center">
-  <a href="http://code.z01.com/bootstrap-vue">
-    <img src="http://code.z01.com/bootstrap-vue/style/icons/icon_512.png" width="300">
+  <a href="http://www.z01.com/">
+    <img src="https://www.z01.com/Template/office/style//images/logo.svg" width="300">
   </a>
 </p>
 <br>
